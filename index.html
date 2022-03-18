@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://github.meunierkevin.com/assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+<link href="https://github.meunierkevin.com/assets/css/site-all.css" rel="stylesheet">
+<script src="https://github.meunierkevin.com/assets/js/jquery.min.js"></script>
+<script src="https://github.meunierkevin.com/assets/js/site-all.js"></script>
+<title>jQuery serialcursor — Meunier Kévin</title>
+</head>
+<body>
+
+<script>writeHeader('serialcursor');</script>
+
+<div id="section-demonstration-js">
+  <script src="libs/gsap.min.js"></script>
+  <script src="libs/paper-core.min.js"></script>
+  <script src="libs/simplex-noise.min.js"></script>
+  <script src="dist/jquery.serialcursor.js"></script>
+  <script>
+  $(document).ready(function(){
+    // jquery.serialcursor initialisation
+    $('#serialcursor').serialcursor();
+  });
+  </script>
+</div>
+<div id="section-demonstration-css">
+  <style type="text/css">
+  /* JavaScript: serialcursor */
+  #serialcursor{pointer-events:none;}
+  #serialcursor-inner{position:fixed;z-index:13;width:80px;height:80px;margin:-40px 0 0 -40px;opacity:0.2;transition:opacity 900ms;}
+  #serialcursor-pointer{position:fixed;z-index:13;height:8px;width:8px;transform:translate(-50%, -50%);background-color:#bc2d39;border-radius:100%;transition:200ms;}
+  #serialcursor.on-mousemove #serialcursor-inner{opacity:.6;}
+  #serialcursor.is-click #serialcursor-inner{opacity:1;}
+  #serialcursor.is-click #serialcursor-pointer{transform:translate(-50%, -50%) scale(0.75);}
+  #serialcursor-pointer-grab{opacity:0;transition:opacity 400ms;}
+  #serialcursor-pointer-grab .sub-icon{position:absolute;top:-2px;width:6px;height:14px;fill:#bc2d39;transition:400ms;}
+  #serialcursor-pointer-grab .sub-icon.is-left{left:-5px;}
+  #serialcursor-pointer-grab .sub-icon.is-right{right:-5px;}
+  #serialcursor.is-grab #serialcursor-pointer-grab{opacity:1;}
+  #serialcursor.is-grab #serialcursor-pointer-grab .sub-icon{fill:#fff;}
+  #serialcursor.is-grab #serialcursor-pointer-grab .sub-icon.is-left{left:-16px;}
+  #serialcursor.is-grab #serialcursor-pointer-grab .sub-icon.is-right{right:-16px;}
+  [data-serialcursor-state='grab']{cursor:grab;}
+  </style>
+</div>
+
+<script>writeFooter('serialcursor');</script>
+
+</body>
+</html>
