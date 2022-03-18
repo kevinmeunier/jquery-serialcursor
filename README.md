@@ -3,7 +3,7 @@
 ## About jQuery serialcursor
 This plugin provides perpertual effect around the cursor to impress your visitors. Note that jQuery serialcursor is shared for inspirational and development purpose.
 
-Dependencies: [Greensock GSAP](https://greensock.com/gsap/), [Paper.js](http://paperjs.org/), and [simplex-noise.js](https://github.com/jwagner/simplex-noise.js).
+Dependencies: [Greensock GSAP](https://github.com/greensock/GSAP), [Paper.js](https://github.com/paperjs/paper.js/), and [simplex-noise.js](https://github.com/jwagner/simplex-noise.js).
 
 ## Demonstration
 See the [project page](https://github.meunierkevin.com/jquery-serialcursor/) for a demonstration.
