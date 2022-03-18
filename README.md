@@ -42,15 +42,15 @@ The following configurations is available by default:
 
 Name               | Type       | Default                                        | Description
 ------------------ | ---------- | ---------------------------------------------- | -----------
-stateDataAttr      | *string*   | *'data-serialcursor-state'*                    | XXX
-strokeColor        | *string*   | *'rgba(255, 255, 255, .4)'*                    | XXX
-strokeWidth        | *integer*  | *1*                                            | XXX
-noiseScale         | *integer*  | *150*                                          | XXX
-noiseRange         | *integer*  | *4*                                            | XXX
-htmlCursor         | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | XXX
-htmlInner          | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | XXX
-htmlPointer        | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | XXX
-htmlGrab           | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | XXX
+stateDataAttr      | *string*   | *'data-serialcursor-state'*                    | Attribute to identify the draggable elements
+strokeColor        | *string*   | *'rgba(255, 255, 255, .4)'*                    | Color of the border
+strokeWidth        | *integer*  | *1*                                            | Border width
+noiseScale         | *integer*  | *150*                                          | Speed of the noise
+noiseRange         | *integer*  | *4*                                            | Range of the noise
+htmlCursor         | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | HTML of the main element
+htmlInner          | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | HTML of the inner element
+htmlPointer        | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | HTML of the default pointer
+htmlGrab           | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | HTML of the grab pointer
 
 
 ## Bugs / Feature request
