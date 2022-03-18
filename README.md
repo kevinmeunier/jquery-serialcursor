@@ -19,7 +19,7 @@ jQuery serialcursor has been tested in: IE, Edge, Chrome, Firefox, and Safari.
 <script src="gsap.min.js"></script>
 <script src="paper-core.min.js"></script>
 <script src="simplex-noise.min.js"></script>
-<script src="jquery.serialcursor.min.js" type="text/javascript"></script>
+<script src="jquery.serialcursor.min.js"></script>
 <link href="jquery.serialcursor.css" type="stylesheet">
 ```
 Due to the lightweight CSS code, it's recommended to copy/paste the CSS code into your general stylesheet.
