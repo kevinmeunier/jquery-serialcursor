@@ -56,6 +56,9 @@ htmlGrab           | *string*   | See [jquery.serialcursor.js](https://github.co
 ## Bugs / Feature request
 Please [report](http://github.com/kevinmeunier/jquery-serialcursor/issues) bugs and feel free to [ask](http://github.com/kevinmeunier/jquery-serialcursor/issues) for new features directly on GitHub.
 
+## Credits
+The magnetic effect has been inspired by [Stefan Kaltenegger](http://www.stk.works/) from Tympanus.
+
 
 ## License
 jQuery serialcursor is licensed under [MIT](http://www.opensource.org/licenses/mit-license.php) license.
