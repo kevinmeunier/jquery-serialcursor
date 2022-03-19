@@ -47,10 +47,10 @@ strokeColor        | *string*   | *'rgba(255, 255, 255, .4)'*                   
 strokeWidth        | *integer*  | *1*                                            | Border width
 noiseScale         | *integer*  | *150*                                          | Speed of the noise
 noiseRange         | *integer*  | *4*                                            | Range of the noise
-htmlCursor         | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | HTML of the main element
-htmlInner          | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | HTML of the inner element
-htmlPointer        | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | HTML of the default pointer
-htmlGrab           | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcookie.js) | HTML of the grab pointer
+htmlCursor         | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcursor.js) | HTML of the main element
+htmlInner          | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcursor.js) | HTML of the inner element
+htmlPointer        | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcursor.js) | HTML of the default pointer
+htmlGrab           | *string*   | See [jquery.serialcursor.js](https://github.com/kevinmeunier/jquery-serialcursor/blob/main/dist/jquery.serialcursor.js) | HTML of the grab pointer
 
 
 ## Bugs / Feature request
